@@ -14,25 +14,19 @@ a {
 }
 
 .page-link,
-.recipe-caption {
+.image-caption {
     font-size: 20px;
     color: rgb(27, 27, 27);
 }
 
 .recipes-container {
-    text-align: center;
     display: flex;
-    width: max-content;
-    margin: auto;
+    flex-wrap: wrap;
 }
 
 .recipes {
-    flex: 1;
     padding: 10px;
-}
-
-.recipes:first-child {
-    margin-right: 10px;
+    
 }
 
 .recipes h2 {
@@ -73,6 +67,13 @@ a {
 .recipe-image {
     height: auto;
     width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.image-caption {
+    padding: 5px;
+    text-align: center;
 }
 
 .ingredients,
