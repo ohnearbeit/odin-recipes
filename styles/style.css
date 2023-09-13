@@ -44,6 +44,14 @@ a {
     width: 300px;
 }
 
+/* Top bar */
+
+.topbar-item {
+    display: inline-block;
+    padding: 5px;
+    margin-left: 10px;
+}
+
 /* Recipe pages styles */
 
 .recipe-name {
